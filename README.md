@@ -1,4 +1,4 @@
-![C/C++ CI](https://github.com/auth12/loader/workflows/C/C++%20CI/badge.svg)
+![C/C++ CI])
 # Preface
 Loader is a fully featured remote image loader, with a windows client and a linux server, only windows 64bit is supported because the current syscalls implementation only works on 64bit. 
 
