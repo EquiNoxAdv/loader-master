@@ -1,0 +1,29 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+        submodules: 'true'
+    - name: init submodule modules
+      run: git submodule foreach git submodule init
+    - name: pull submodule modules
+      run: git submodule foreach git submodule update
+    - name: run cmake
+      run: cmake .
+    - name: make
+      run: make
+    - uses: actions/upload-artifact@v2
+      with:
+        name: bin
+        path: bin/

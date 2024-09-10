@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{25766a41-563a-43f5-9a4a-5b8613745583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{50deb76c-c8f3-4a00-bd47-f083fafeb493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{c4cfda96-96a3-43a0-b1d4-330fe179bcbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\injection">
+      <UniqueIdentifier>{b42a963e-6a61-434d-a9e7-fcbdf8c0164e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\syscalls">
+      <UniqueIdentifier>{202e1b7e-d8c5-43bf-b9ca-018bc7b5b939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\io">
+      <UniqueIdentifier>{1c100b28-a35e-401d-a543-ab5fb0a92f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\injection\image">
+      <UniqueIdentifier>{5f94eb54-4b56-4469-8bb4-39e1953dba94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hwid">
+      <UniqueIdentifier>{9ce175d4-284b-4433-8785-e5053bfbdb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\apiset">
+      <UniqueIdentifier>{970f013c-b1c0-4229-9278-d3a305fec8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\security">
+      <UniqueIdentifier>{5927052f-0078-4cad-a301-620d081c18da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{0f7ed020-8907-4c2b-bb28-308ea8759b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\imgui">
+      <UniqueIdentifier>{c405efca-6b8b-4a86-937b-a76dce568087}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\include.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\client.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\enc.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\packet.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\injection\mapper.h">
+      <Filter>src\injection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\native.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ca.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\injection\process.h">
+      <Filter>src\injection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\syscalls.h">
+      <Filter>src\util\syscalls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\io.h">
+      <Filter>src\util\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\injection\pe.h">
+      <Filter>src\injection\image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\apiset.h">
+      <Filter>src\util\apiset</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hwid\hwid.h">
+      <Filter>src\hwid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\security\security.h">
+      <Filter>src\security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imgui.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imgui_impl_win32.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\ui.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imgui_internal.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imstb_rectpack.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imstb_textedit.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imstb_truetype.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imgui_stdlib.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\imgui\imgui_impl_dx9.h">
+      <Filter>src\ui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\events.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\client.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\util.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\injection\process.cpp">
+      <Filter>src\injection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\injection\mapper.cpp">
+      <Filter>src\injection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\syscalls.cpp">
+      <Filter>src\util\syscalls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\io.cpp">
+      <Filter>src\util\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\apiset.cpp">
+      <Filter>src\util\apiset</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\imgui\imgui_impl_win32.cpp">
+      <Filter>src\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\ui.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\imgui\imgui.cpp">
+      <Filter>src\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\imgui\imgui_draw.cpp">
+      <Filter>src\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\imgui\imgui_widgets.cpp">
+      <Filter>src\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\imgui\imgui_stdlib.cpp">
+      <Filter>src\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\imgui\imgui_impl_dx9.cpp">
+      <Filter>src\ui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\security\security.cpp">
+      <Filter>src\security</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
